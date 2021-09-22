@@ -78,6 +78,8 @@ Player.prototype.move = function () {
 
     this.graphic.position.x = this.position.x;
     this.graphic.position.y = this.position.y;
+	//console.log(this.position.x)
+	//console.log(this.position.y)
     
     light1.position.x = this.position.x;
     light1.position.y = this.position.y;
