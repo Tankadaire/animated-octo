@@ -27,7 +27,9 @@ function init()
     ground = new Ground(0xffffff, WIDTH, HEIGHT, 10, player_spawn);
     
     player1 = new Player("player1", 0xffff00, new THREE.Vector2(player_spawn[0], player_spawn[1]), 0);
+	ennemy = new Player("player1", 0x00000, new THREE.Vector2(150,150), 0);
     scene.add(player1.graphic);
+	scene.add(ennemy.graphic);
 
     light1 = new Light("sun", 0xffffff, "0,0,340");
     scene.add(light1);
